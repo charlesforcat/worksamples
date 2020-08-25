@@ -1,0 +1,91 @@
+<hr>
+<h4><font color=#3f51b5>WHEN</font></h4>
+<form [formGroup]="inputForm" >
+  
+    <div><b>Start</b><br>
+      <mat-checkbox color="primary"  (click)="onClickInstant()">Now</mat-checkbox><br>
+      
+      <div class="form-group" [ngSwitch]="instantornot" >
+      <div *ngSwitchCase="'isInstant'"> Check in before {{timeOut}}</div>
+      <mat-form-field *ngSwitchCase="'notInstant'"> 
+          <mat-label>Date</mat-label>
+
+
+          <input matInput [matDatepicker]="startDate"  [matDatepickerFilter]="myFilter" required formControlName="startDate" >
+          <mat-datepicker-toggle matSuffix [for]="startDate"></mat-datepicker-toggle>
+          <mat-datepicker #startDate> </mat-datepicker>
+    
+      </mat-form-field>
+      <mat-form-field *ngSwitchCase="'notInstant'" >
+        <mat-label>Hour</mat-label>
+        <mat-select required formControlName="startHour">
+                <mat-option *ngFor="let timestart of timeslots"  [value]="timestart.value">
+                    {{timestart.viewValue}}
+                </mat-option>            
+        </mat-select>
+      </mat-form-field>
+      </div>
+  
+      <div class="form-group" [ngSwitch]="instantornot">
+        <div *ngSwitchCase="'notInstant'"> <b>End</b><br></div>
+        <div *ngSwitchCase="'isInstant'"> <b><br>End</b><br>On Check out</div>
+
+
+        <mat-form-field *ngSwitchCase="'notInstant'">
+            <mat-label>Date</mat-label>
+            <input  matInput [matDatepicker]="endDate" [min]="startDate" [matDatepickerFilter]="myFilter" required formControlName="endDate">
+            <mat-datepicker-toggle matSuffix [for]="endDate"></mat-datepicker-toggle>
+            <mat-datepicker #endDate> </mat-datepicker>
+        </mat-form-field>
+        
+
+        <mat-form-field *ngSwitchCase="'notInstant'">  
+            <mat-label>Hour</mat-label>
+            <mat-select required formControlName="endHour">
+                <mat-option *ngFor="let time of timeslots"  [value]="time.value">
+                    {{time.viewValue}}
+                </mat-option>            
+              </mat-select>
+        </mat-form-field>
+
+       
+        </div>
+      
+        <div>
+     
+        <label id="example-radio-group-label"><hr><h4><font color=#3f51b5>WHAT</font></h4></label>
+        <mat-radio-group aria-labelledby="example-radio-group-label"
+          required class="example-radio-group" formControlName="what" >
+          <mat-radio-button color="primary" class="example-radio-button" *ngFor="let whatOffer of Offers" [value]="whatOffer">
+             {{whatOffer}}
+          </mat-radio-button>
+        </mat-radio-group>
+      
+  
+      </div>
+
+    </div>
+    <br>
+  <hr>
+  <h4><font color=#3f51b5>HOW MANY</font></h4>
+  People Expected  
+  <button mat-mini-fab  color="primary" (click)="onClickDecrease()">-</button>
+  {{peoplecount}}
+  <button mat-mini-fab color="primary"  (click)="onClickIncrease()">+</button>
+
+</form>
+<br>
+<hr>
+<h4><font color=#3f51b5>ESTIMATED PRICE</font></h4>
+<mat-card><h2>{{estimate}} excl tax</h2><font size=0.5x><a href="https://www.laburo.co">Price Conditions</a></font></mat-card>
+<br>
+<button mat-raised-button color="primary">Send Request</button>
+
+
+
+
+
+
+
+
+
