@@ -1,0 +1,37 @@
+{
+    "_id": "5d796e617ddaf17e68d64203",
+    "updatedAt": "2019-09-11T22:00:01.201Z",
+    "createdAt": "2019-09-11T22:00:01.201Z",
+    "publishingStatus": "draft",
+    "openingHour": "09:00",
+    "endHourMorning": "13:00",
+    "startHourAfternoon": "14:00",
+    "closingHour": "19:00",
+    "place": "5abe51d58b78540f1183bee5",
+    "maxCapacity": 8,
+    "resourceCount": 10,
+    "pricingModel": "fix",
+    "isMain": true,
+
+    "hourPrice": {
+        "price": 4,
+        "bestPrice": 3.8
+    },
+    "halfdayPrice": {
+        "price": 30,
+        "bestPrice": 28.5
+    },
+    "dayPrice": {
+        "price": 50,
+        "bestPrice": 28.5
+    },
+    
+    "roomType": "hotdesk",
+    "roomName": "Pereire",
+    "agendaURL": "https://calendar.google.com/calendar?cid=YW5nZWwudGFsYW1vbmFAbGFidXJvLmNv",
+    "cutHour": "00:00",
+    "instantBooking": true,
+    "isEnable": true,
+    "date": "2019-06-26T19:41:12.719Z",
+    "__v": 0
+}

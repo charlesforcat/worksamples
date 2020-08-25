@@ -1,0 +1,154 @@
+{
+    "_id": "5abe51d58b78540f1183bee5",
+    "offer": "5d796e617ddaf17e68d64203",
+    "publishingStatus": "draft",
+    "place": {
+        "placeName": "VOLUMES Coworking",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                2.39215,
+                48.879575
+            ]
+        },
+        "vicinity": "78 rue Compans 75019 Paris",
+        "amenities": [
+            {
+                "name": "WiFi",
+                "detail": "High speed WiFi."
+            },
+            {
+                "name": "Free coffee",
+                "detail": "We provide free coffee and free tea access."
+            },
+            {
+                "name": "Kitchen",
+                "detail": "You can cook your lunch in our shared kitchen. Microwave. Fridge."
+            },
+            {
+                "name": "Others",
+                "detail": "Sockets. Daylight. Access for disabled. Reception. Sleeping room. Phone room. Patio. Individual box."
+            }
+        ],
+        "links": [
+            {
+                "websit": ""
+            }
+        ],
+        "priceRules": "Hot Desk Fee: Pay as you go with just a 1 hour Minimum Fee. VAT included. No more commitment than that.\n\nThe Workspace sets the Hourly and Daily Rate for usage of a Hot Desk. Any applicable discount is already applied to both rates already displayed.\nYou will receive a Receipt via Email upon Check Out.\n\nPenalty Fee: Once you confirm your booking, you have 60 minutes to Check In to the Workspace. If you do not Check In within 60 minutes or if you Cancel the Booking after having confirmed, you will be charged a 3€ Penalty Fee.",
+        "contacts": [
+            {
+                "phone": ""
+            }
+        ],
+        "about": "Volumes Coworking is collaborative place of 500m2 based on an open and multidisciplinary community. Located in Paris near famous “Buttes Chaumont” park and “Place des Fêtes” in Mouzaïa neighborhood, Volumes is composed by a coworking, a digital makerspace, and a shared kitchen.\n\nCOWORKING. MAKING. FOODING\n\nBased on multidisciplinary creators meeting, Volumes is more than a simple place where freelancer and startup can work and increase.\n\nIt's a tool for collaborative and multifunctional work. It gives to any users the capability to conceive and realize their projects thanks to many services: high speed connexion, multiformat printing equipment, meeting rooms, prototyping workshops, sound studio, modular open‐space, wifi pub, collaborative kitchen, personalized coaching, legal and accounting services...",
+        "photos": {
+            "l": [
+                "/img/volumes_1_375x240.jpg",
+                "/img/volumes_2_375x240.jpg",
+                "/img/volumes_3_375x240.jpg"
+            ],
+            "xl": [
+                "/img/volumes_1_750x480.jpg",
+                "/img/volumes_2_750x480.jpg",
+                "/img/volumes_3_750x480.jpg"
+            ]
+        },
+        "priceRule": [
+            {
+                "name": "Hot Desk Fee:",
+                "detail": " Pay as you go with just a 1 hour Minimum Fee. VAT included. No more commitment than that.\n\nThe Workspace sets the Hourly and Daily Rate for usage of a Hot Desk. Any applicable discount is already applied to both rates already displayed.\nYou will receive a Receipt via Email upon Check Out.\n\nPenalty"
+            },
+            {
+                "name": "Fee:",
+                "detail": "Once you confirm your booking, you have 60 minutes to Check In to the Workspace. If you do not Check In within 60 minutes or if you Cancel the Booking after having confirmed, you will be charged a 3€ Penalty Fee."
+            }
+        ],
+        "priceTerms": "TBC",
+        "i18n": [
+            {
+                "language": "fr",
+                "place": {
+                    "about": "Volumes Coworking est un espace collaboratif de 500 m2 fondé sur une communauté ouverte et transdisciplinaire. Situé à proximité de la Place des Fêtes et des Buttes Chaumont à Paris, dans le célèbre quartier de la Mouzaïa il est composé d'un espace de coworking, d'un atelier fablab pour la fabrication numérique et d'un foodlab avec une cuisine expérimentale collaborative.\n\nCOWORKING. MAKING. FOODING.\n\nFondé par la rencontre de créateurs transdisciplinaires, Volumes est bien plus qu’un simple lieu de travail à destination des indépendants et des entreprises en voie de développement.\n\nC’est un outil de travail collaboratif et multifonctionnel donnant à tous ses utilisateurs les moyens de concevoir et de réaliser toute la diversité de leurs projets : connexion internet haut débit, matériel d’impression multiformat, salles de réunion, atelier de prototypage, studio de prise de son, open-space modulable, bistrot wifi, cuisine collaborative, services d’accompagnement juridique et comptable, coaching personnalisé.\n\n",
+                    "amenities": [
+                        {
+                            "name": "WiFi",
+                            "detail": "WiFi haut débit."
+                        },
+                        {
+                            "name": "Café offert",
+                            "detail": "Café et thé offerts."
+                        },
+                        {
+                            "name": "Cuisine",
+                            "detail": "Cuisine partagée. Micro-ondes. Frigidaire."
+                        },
+                        {
+                            "name": "Autres",
+                            "detail": "Prises électriques. Lumineux. Accès pour handicapés. Accueil. Dortoir. Cabine téléphonique. Patio. Locker."
+                        }
+                    ],
+                    "welcomeMessage":""
+                }
+            }
+        ]
+    },
+    "managers": [
+        "5abe0a65037ea449c41f44b8"
+    ],
+    "officeManager": "5abe0a65037ea449c41f44b8",
+    "transactions": [],
+    "starRate": 4.391156462585034,
+    "openingHours": [
+        {},
+        {
+            "closingHour": "19:00",
+            "openingHour": "09:00"
+        },
+        {
+            "closingHour": "19:00",
+            "openingHour": "09:00"
+        },
+        {
+            "closingHour": "19:00",
+            "openingHour": "09:00"
+        },
+        {
+            "closingHour": "19:00",
+            "openingHour": "09:00"
+        },
+        {
+            "closingHour": "19:00",
+            "openingHour": "09:00"
+        },
+        {}
+    ],
+    "closingDays": [
+        "2017-06-04",
+        "2017-06-05",
+        "2017-07-14",
+        "2017-08-15",
+        "2017-11-01",
+        "2017-11-11",
+        "2017-12-25",
+        "2018-01-01",
+        "2018-04-02",
+        "2018-05-01",
+        "2018-05-08",
+        "2018-05-10",
+        "2018-05-20",
+        "2018-05-21",
+        "2018-07-14",
+        "2018-08-15",
+        "2018-11-01",
+        "2018-11-11",
+        "2018-12-25"
+    ],
+    "welcomeMessage": "",
+    "residents": [],
+    "residentCode": "VOLUMESRESIDENT"
+    "locale": "fr-FR",
+    "timeZone": "Europe/Paris",
+    "updatedAt": "2019-09-11T22:00:01.228Z",
+    "isEnable": true
+}
